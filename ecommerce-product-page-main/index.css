@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.navbar-link{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;5
+}
+.navbar-actions{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.avatar{
+    width: 40%;
+}
+hr{
+    width: 60%;
+}
+.product-image{
+    width: 60%;
+    border-radius: 5%;
+}
+.images-container{
+    margin: 2% 2% 0% 2%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.thumbnail-container{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.thumbnail-container > img{
+    width: 15%;
+    border-radius: 10%;
+    margin: 1%;
+}
+.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+p{
+    line-height: 2.5ch;
+    opacity: 75%;
+    color: hsl(0, 0%, 0%);
+}
+.add-cart-button{
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    padding: 3% 15%;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.add-cart-button > img{
+    color: white;
+}
+.plus-minus-button{
+    border: none;
+    padding: 33% 33%;
+}

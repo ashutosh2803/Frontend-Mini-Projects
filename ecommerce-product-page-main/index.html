@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+  <div>
+    <div class="navbar-container">
+      <div class="navbar-link">
+        <div><h1>sneakers</h1></div>
+        <div>Collections</div>
+        <div>Men</div>
+        <div>Women</div>
+        <div>About</div>
+        <div>Contact</div>
+      </div>
+      <div class="navbar-actions">
+        <div><img src="./images/icon-cart.svg" alt="cart-logo" /></div>
+        <div><img class="avatar" src="./images/image-avatar.png" alt="avatar-logo"/></div>
+      </div>
+    </div>
+    <hr>
+    <div class="content-container">
+      <div class="images-container">
+        <img class="product-image" src="./images/image-product-1.jpg" alt="product-image" />
+        <div class="thumbnail-container">
+          <img src="./images/image-product-1-thumbnail.jpg" alt="product-thumbnail"/>
+          <img src="./images/image-product-2-thumbnail.jpg" alt="product-thumbnail"/>
+          <img src="./images/image-product-3-thumbnail.jpg" alt="product-thumbnail"/>
+          <img src="./images/image-product-4-thumbnail.jpg" alt="product-thumbnail"/>
+        </div>
+      </div>
+      <div>
+        <h5 style="color: hsl(26, 100%, 55%);">SNEAKER COMPANY</h5>
+        <h1>Fall Limited Edition<br/> Sneakers</h1>
+        <p>These low-profile sneakers are your perfect casual wear<br/> companion. Featuring a durable rubber outer sole, they'll<br/> withstand everything the weather can offer.</p>
+        <div style="width: 33%;display: flex;justify-content: space-between; align-items: center;"><h2>$125.00</h2> <p style="color: hsl(26, 100%, 55%); background-color: hsl(25, 100%, 94%); padding: 2%;">50%</p></div>
+        <p style="text-decoration:line-through;">$250.00</p>
+        <div style="display: flex; justify-content: space-between; align-items: center; padding-left: 6%;">
+          <div style="display: flex; justify-content: center; align-items: center;">
+            <button class="plus-minus-button"><img src="./images/icon-minus.svg" alt="minus-svg"/></button>
+            <div style="background-color: rgb(240,240,240); font-size: 37px;">0</div>
+            <button class="plus-minus-button"><img src="./images/icon-plus.svg" alt="plus-svg"/></button>
+          </div>
+          <button class="add-cart-button">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
