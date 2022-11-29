@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+.header{
+    text-align: center;
+    letter-spacing: 1.5ch;
+    font-weight: 700;
+    font-size: 25px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.billContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 90%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.billFormWrapper{
+    width: 40%;
+    height: 90%;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin: 1%;
+    padding: 1%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.billBoxWrapper{
+    width: 40%;
+    height: 90%;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: hsl(183, 100%, 15%);
+    margin: 1%;
 }
-
-.App-link {
-  color: #61dafb;
+.resetButton{
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    font-weight: 700;
+    padding: 2%;
+    font-size: 20px;
+    width: 90%;
+    border-radius: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputBox{
+    height: 5vh;
+    width: 95%;
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 5px;
+    border: none;
 }
